@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dynamsoft.NetCoreApp.Barcode" Version="8.4.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="Vintasoft.Barcode" Version="12.4.8.3" />
+    <PackageReference Include="Vintasoft.Imaging" Version="10.1.9.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="7.1.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClearImageNet.70">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Inlite\ClearImage SDK.9_2_6798\ClearImageNet.70.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
